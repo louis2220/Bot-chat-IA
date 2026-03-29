@@ -11,7 +11,7 @@ class Utility(commands.Cog):
     @app_commands.command(name="ajuda", description="📋 Mostra todos os comandos disponíveis")
     async def help(self, interaction: discord.Interaction):
         embed = discord.Embed(
-            title="🤖 Cordyx Bot — Comandos",
+            title="🤖 RevolutX: Comandos",
             description="Fala, galera! Aqui estão todos os meus comandos! 🚀✨",
             color=discord.Color.purple()
         )
@@ -78,7 +78,7 @@ class Utility(commands.Cog):
         )
         
         embed.set_thumbnail(url=self.bot.user.display_avatar.url)
-        embed.set_footer(text="Cordyx Bot • Use /chat para falar comigo! 😄")
+        embed.set_footer(text="RevolutX Bot • Use /chat para falar comigo! 😄")
         
         await interaction.response.send_message(embed=embed)
 
