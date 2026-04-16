@@ -68,7 +68,7 @@ class MyBot(commands.Bot):
                 embed = discord.Embed(
                     title="👋 Olá, galera!",
                     description=(
-                        "Fala, meu povo! 😄 Eu sou o **Cordyx**, seu novo assistente de IA!\n\n"
+                        "Fala, meu povo! 😄 Eu sou o **Revolutx**, seu novo assistente de IA!\n\n"
                         "🤖 **Chat com IA** — Me marque ou fale comigo que eu respondo!\n"
                         "🛡️ **Moderação Avançada** — Proteção automática pro seu server!\n"
                         "🤝 **Parcerias** — Sistema automático de parceria entre servidores!\n"
