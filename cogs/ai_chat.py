@@ -1,4 +1,4 @@
-import discord
+  import discord
 from discord.ext import commands
 from discord import app_commands
 from groq import Groq
@@ -1079,3 +1079,4 @@ class AIChat(commands.Cog):
 
 async def setup(bot):
     await bot.add_cog(AIChat(bot))
+        
